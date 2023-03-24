@@ -107,10 +107,10 @@ const config = {
                                 label: 'Docs',
                                 to: '/docs/intro',
                             },
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
+                            // {
+                            //     label: 'Blog',
+                            //     to: '/blog',
+                            // },
                         ],
                     },
                     {
