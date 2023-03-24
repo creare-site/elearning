@@ -13,21 +13,21 @@ const customFields = {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'Free DOCS Starter',
-    tagline: 'Powered by Docusaurus',
+    title: 'eLearning',
+    tagline: 'Oferit de Invat.eu',
     favicon: 'img/favicon.png',
 
     // Set the production url of your site here
-    url: 'https://docusaurus-soft-design.onrender.com/',
+    url: 'https://ro-elearning.onrender.com/',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'app-generator', // Usually your GitHub org/user name.
-    projectName: 'docusaurus-soft-design', // Usually your repo name.
-    trailingSlash: false, // for github pages compatibility
+    organizationName: 'creare-site', // Usually your GitHub org/user name.
+    projectName: 'elearning', // Usually your repo name.
+    trailingSlash: true, // for github pages compatibility
 
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -61,20 +61,9 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/app-generator/docusaurus-soft-design/tree/main/',
-                    versions: {
-                        current: {
-                            label: `Next 🚀`,
-                        },
-                    },
+                        'https://github.com/creare-site/elearning/tree/main/',
                 },
-                blog: {
-                    showReadingTime: true,
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/app-generator/docusaurus-soft-design/tree/main/',
-                },
+                blog: false,
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
@@ -88,10 +77,10 @@ const config = {
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: 'My DOCS',
+                title: 'Invat.eu',
                 logo: {
                     href: '/',
-                    alt: 'Soft UI Dashboard',
+                    alt: 'eLearning - Invat.eu',
                     src: 'img/logo-ct.png',
                 },
                 items: [
@@ -101,10 +90,8 @@ const config = {
                         position: 'left',
                         label: 'Tutorial',
                     },
-                    { to: '/blog', label: 'Blog', position: 'left' },
-                    { type: 'docsVersionDropdown', position: 'right' },
                     {
-                        href: 'https://github.com/app-generator/docusaurus-soft-design',
+                        href: 'https://github.com/creare-site/elearning',
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -153,7 +140,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `&copy; ${new Date().getFullYear()} MyCompany`,
+                copyright: `&copy; Invat.eu`,
             },
             prism: {
                 theme: lightCodeTheme,
