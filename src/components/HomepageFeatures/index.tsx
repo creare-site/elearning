@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
     {
-        title: 'Easy to Use',
+        title: 'Continut Gratuit',
         Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
         description: (
             <>
-                Docusaurus was designed from the ground up to be easily
-                installed and used to get your website up and running quickly.
+                Tot continutul poate fi accesat gratuit de catre elevi si profesori fara a avea un cont.
             </>
         ),
     },
     {
-        title: 'Modern Styling',
+        title: 'Profesori si Elevi',
         Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
         description: (
             <>
-                This project uses the UI styles from <a target="_blank" rel="noopener noreferrer" href="https://bit.ly/soft-design-system">Soft UI Design</a>, 
-                a popular Design crafted and released for free by <a target="_blank" rel="noopener noreferrer" href="https://bit.ly/3fKQZaL">Creative-Tim</a>. 
+                Acest proiect se doreste a fi un spatiu in care profesorii si elevii pot interationa liber.
             </>
         ),
     },
     {
-        title: 'Actively Supported',
+        title: 'Blog',
         Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
         description: (
             <>
-                The codebase is constantly improved, updated and actively supported by <a target="_blank" rel="noopener noreferrer" href="https://appseed.us">AppSeed</a>{' '}
-                via email and <a target="_blank" rel="noopener noreferrer" href="https://appseed.us/support/">Discord</a>. 
+                Articole care dezbat <a href="https://www.blog.invat.eu">teme de actualitate din sistemul educational</a> din Romania. 
             </>
         ),
     },

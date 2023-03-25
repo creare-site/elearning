@@ -13,12 +13,12 @@ const customFields = {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'eLearning',
+    title: 'eLearning Invat.eu',
     tagline: 'Oferit de Invat.eu',
     favicon: 'img/favicon.png',
 
     // Set the production url of your site here
-    url: 'https://ro-elearning.onrender.com/',
+    url: 'https://www.elearning.invat.eu',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
@@ -88,11 +88,11 @@ const config = {
                         type: 'doc',
                         docId: 'intro',
                         position: 'left',
-                        label: 'Tutorial',
+                        label: 'Intro',
                     },
                     {
-                        href: 'https://github.com/creare-site/elearning',
-                        label: 'GitHub',
+                        href: 'https://www.blog.invat.eu',
+                        label: 'Blog',
                         position: 'right',
                     },
                 ],
@@ -101,41 +101,29 @@ const config = {
                 style: 'dark',
                 links: [
                     {
-                        title: 'CONTENT',
+                        title: 'Continut',
                         items: [
                             {
                                 label: 'Docs',
                                 to: '/docs/intro',
                             },
-                            // {
-                            //     label: 'Blog',
-                            //     to: '/blog',
-                            // },
                         ],
                     },
                     {
-                        title: 'RESOURCES',
+                        title: 'Resurse',
                         items: [
                             {
-                                label: 'Source Code',
-                                href: 'https://github.com/app-generator/docusaurus-soft-design',
-                            },
-                            {
-                                label: 'Soft UI Design',
-                                href: 'https://bit.ly/soft-design-system',
+                                label: 'Blog',
+                                href: 'https://www.blog.invat.eu',
                             },
                         ],
                     },
                     {
-                        title: 'SUPPORT',
+                        title: 'Contact',
                         items: [
                             {
-                                label: 'AppSeed',
-                                href: 'https://appseed.us/support/',
-                            },
-                            {
-                                label: 'StackOverflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                                label: 'Email',
+                                href: '/docs/intro#contact',
                             },
                         ],
                     },

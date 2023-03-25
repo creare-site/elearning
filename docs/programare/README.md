@@ -1,0 +1,52 @@
+---
+sidebar_position : 0
+title            : Programare - Notiuni Generale
+sidebar_label    : Intro
+---
+
+# Intro
+
+Programarea este procesul de creare a instrucțiunilor și algoritmului necesare pentru a dezvolta software-ul sau aplicațiile pe care le utilizăm pe computer, telefon sau alte dispozitive electronice. 
+
+Programarea implică scrierea de cod, care este un set de instrucțiuni scrise într-un limbaj de programare specific, care poate fi compilat și executat de către calculator pentru a realiza o anumită sarcină sau funcționalitate.
+
+Programarea este utilizată într-o varietate de domenii, inclusiv în dezvoltarea de aplicații web și mobile, în crearea de jocuri video, în programarea dispozitivelor inteligente, în automatizarea proceselor de afaceri și în cercetarea științifică și matematică.
+
+Procesul de programare implică în mod obișnuit mai multe etape, inclusiv planificarea și proiectarea software-ului, scrierea și testarea codului, depurarea erorilor și mentenanța ulterioară a software-ului. 
+
+<br />
+
+## Program Simplu in `C++`
+
+Iată un program simplu în `C++` care afișează mesajul "Hello!" în consolă:
+
+```cpp
+#include <iostream>
+
+int main() {
+    std::cout << "Hello!" << std::endl;
+    return 0;
+}
+```
+
+Acest program utilizează biblioteca standard `iostream` pentru a afișa mesajul în consolă. 
+Funcția `main()` este funcția principală a programului și este punctul de intrare în program. 
+Aici, codul afișează mesajul "Hello!" folosind std::cout și apoi se întoarce cu return 0;
+
+<br />
+
+## Program Simplu in `Python`
+
+```python
+print("Hello din Python!")
+```
+
+Acest program utilizează funcția `print()` din **Python** pentru a afișa mesajul "Hello din Python!" în consolă. 
+Funcția `print()` afișează valoarea dată în interiorul parantezelor, în acest caz fiind mesajul "Hello din Python!".
+
+<br />
+
+## Resurse
+
+- Citeste mai mult pe [blog](https://www.blog.invat.eu/)
+- Afla mai multe despre [Invat.eu](/docs/intro.md) 
