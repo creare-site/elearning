@@ -76,6 +76,7 @@ const config = {
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
             // Replace with your project's social card
+            metadata: [{name: 'google-site-verification', content: 'NJ0M5ncVbIhiapFYvdwbpC3Zi9Jj7JXWnB6ZVGaTN1s'}],
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
                 title: 'Invat.eu',
