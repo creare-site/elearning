@@ -83,7 +83,7 @@ const config = {
                 logo: {
                     href: '/',
                     alt: 'eLearning - Invat.eu',
-                    src: 'img/logo-ct.png',
+                    src: 'img/logo.png',
                 },
                 items: [
                     {
