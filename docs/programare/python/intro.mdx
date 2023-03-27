@@ -1,0 +1,51 @@
+---
+sidebar_position : 0
+title            : Programare in C++ - Notiuni Generale
+sidebar_label    : Intro
+---
+
+# Introducere in C++ (Cu Exemplu)
+
+**[Python](/programare/python/)** este un limbaj de programare interpretat, creat în anii '90 de către Guido van Rossum. 
+Acesta este un limbaj de programare cu o sintaxă simplă și clară, ceea ce îl face ușor de învățat și de folosit. 
+Este adesea considerat unul dintre cele mai populare limbaje de programare, fiind utilizat într-o gamă largă de aplicații, inclusiv dezvoltarea web, analiza datelor și inteligența artificială.
+
+În **[Python](/programare/python/)**, programele sunt scrise într-un editor de text și apoi interpretate cu ajutorul unui interpretor Python. 
+Există mai multe versiuni ale limbajului Python disponibile, dar cele mai utilizate sunt Python 2 și Python 3. 
+În prezent, `este recomandat să se folosească Python 3`, deoarece suportul pentru Python 2 a fost încheiat în anul 2020.
+
+**Python** este un limbaj de programare orientat pe obiect, ceea ce înseamnă că este conceput pentru a lucra cu obiecte și clase. 
+În plus, `Python` este un limbaj de programare dinamic, ceea ce înseamnă că nu trebuie să specificați tipul de date al unei variabile înainte de a o utiliza.
+
+**Python** vine cu o bibliotecă standard foarte bogată, care oferă o gamă largă de funcții și clase pentru diverse scopuri, cum ar fi manipularea fișierelor, 
+crearea de interfețe grafice de utilizator (GUI) și gestionarea rețelelor. De asemenea, există multe alte biblioteci și cadre de lucru (frameworks) pentru `Python` care extind funcționalitatea sa, 
+cum ar fi NumPy și TensorFlow pentru analiza datelor și Keras pentru inteligența artificială.
+
+<br />
+
+## Procesarea unei pagini Web
+
+Exemplu de cod Python care extrage titlul paginii web de pe **[Invat.eu](https://www.invat.eu/)** folosind biblioteca `requests` și `Beautiful Soup`:
+
+```python
+import requests
+from bs4 import BeautifulSoup
+
+url = 'https://www.invat.eu/'
+response = requests.get(url)
+soup = BeautifulSoup(response.text, 'html.parser')
+title = soup.title.string
+
+print(title) 
+```
+
+În acest exemplu, utilizăm biblioteca requests pentru a efectua o cerere GET la adresa URL **[Invat.eu](https://www.invat.eu/)**. 
+Apoi, folosim biblioteca Beautiful Soup pentru a analiza codul HTML al paginii și pentru a găsi elementul de titlu. 
+Metoda `title.string` returnează textul titlului paginii.
+
+<br />
+
+## Resurse
+
+- Citeste mai mult pe [blog](https://www.blog.invat.eu/)
+- Afla mai multe despre [Invat.eu](/intro) 
