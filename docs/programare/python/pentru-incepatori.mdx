@@ -1,0 +1,227 @@
+---
+sidebar_position : 1
+title            : Ghid Python pentru Incepatori
+sidebar_label    : Ghid Incepatori
+---
+
+# Ghid de programare Python pentru Incepatori
+
+În acest articol, veți afla introducerea limbajului de programare Python pentru începători și conceptele sale importante cu ajutorul exemplelor de codare.
+
+Vom acoperi conceptele de bază ale programării Python pentru începători cu exemple practice de cod pentru a înțelege mai bine programarea și, de asemenea, pentru a învăța cum să scrieți un program eficient în Python.
+
+
+<br />
+
+## Ce este [Python](/programare/python/) 
+
+Python este un limbaj de programare interpretat, de nivel înalt și de uz general. Este folosit pe scară largă cel mai popular limbaj de programare la acea vreme. 
+A fost creat de Guido van Rossum și lansat în 1991.
+
+Creșterea sa este destul de mare la nivel mondial. Python poate fi folosit pentru a lucra cu proiecte mari și complexe și pentru a efectua calcule sofisticate. 
+Python a îmbunătățit viteza și eficiența pentru mediile de dezvoltare de prototipare de mare viteză pentru aplicații mari.
+
+Poate automatiza sarcinile și vizualizarea datelor. Python a fost adoptat de mulți non-programatori, cum ar fi contabilii și oamenii de știință, datorită simplității sale. 
+Poate fi folosit în următoarele scopuri:
+
+- Data Science
+- Data Analysis
+- Inteligenţă artificială
+- Machine learning
+- Aplicatii IOT 
+- Web Development
+- Software Development
+- Aplicatii Desktop
+
+<br />
+
+> Caracteristicile cheie ale **Python**
+
+- Python este un limbaj de programare de nivel înalt sensibil la majuscule și minuscule
+- Ușor de învățat și sintaxa sa este similară cu cea a englezei
+- Limbajul tastat dinamic
+- Limbajul de programare multiplatform
+- Are un suport mare de librarii
+- Gratuit și open source
+- Limbajul de programare orientat pe obiecte și procedural
+- Limbajul interpretat in momentul executiei
+
+<br />
+
+## Sintaxa Python
+
+În această secțiune, veți învăța sintaxa de bază a Python3. 
+Pe măsură ce învățați limbajele anterioare, cum ar fi Java, C++, ASP.net, aceste limbaje foloseau punct și virgulă la sfârșitul declarației, 
+dar Python este un limbaj simplu, cu o sintaxa apropiata de limbajul natural.
+
+Python folosește indentarea pentru a indica codul structurii. Indentarea se referă la spațiile albe ale structurii liniei de cod.
+Următorul cod arată instrucțiunea print:
+
+```python
+print ("Hello World!")
+```
+
+<br />
+
+## Program simplu Python 
+
+Un program simplu scris in Python il puteti gasi mai jos. 
+
+```python
+a = 5
+b = 10
+
+if (a>b):
+    print ("a is greater than b")
+else:
+    print ("a is less than b")
+```
+
+Codul declara doua variable, `a` si `b` si maj jos compara valorile utilizand o directiva `if`
+
+<br />
+
+## Variabile Python 
+
+Pe scurt, variabilele sunt containere pentru stocarea valorilor datelor.
+
+In python când atribuim o variabilă, nu trebuie să specificăm tipul de date al variabilei. 
+Când atribuim o valoare variabilei, nu trebuie să declarăm variabila. O variabilă poate deține diferite tipuri de obiecte.
+
+Să luăm un exemplu cu o variabilă numită „nume” și atribuim o valoare „TechRadar”. 
+Deci, nu trebuie să declarăm o variabilă, ci direct valoarea. O variabilă de nume poate fi un obiect de tip șir.
+
+```python
+name = 'TechRadar' # Variabila de tip sir de caractere
+```
+
+O variabila poate stoca diferite tipuri de date: `sir caractere`, numere intregi sau numere cu virgula (float)
+
+```python
+x = 2   # Variabila INT
+y = 3.3 # Variabila Float 
+
+z = x+y
+print(z)
+```
+
+Exemplul de mai sus arată că variabila x stochează tipul întreg al obiectului și variabila y stochează tipul float al obiectului.
+
+<br />
+
+## Reguli de utilizare a numelor
+
+Un nume de variabilă se numește `identificator` atunci când alegem un nume de variabilă, avem câteva reguli de care trebuie să ținem cont.
+
+- Numele variabilei trebuie început cu o litera sau liniuță de subliniere (_).
+- Un nume de variabilă poate conține litere mari (A-Z), litere mici (a-z), cifre (0-9) și litere de subliniere.
+- Nu poate conține spații albe sau caractere speciale (+, -,!, @, $, #, %,^, &, *).
+- Numele variabilelor sunt sensibile la majuscule (
+  - De exemplu, `nume`, `Nume` și `NUME` sunt trei variabile diferite.
+
+<br />
+
+## Sir de caractere Python (`Strings`)
+
+În această secțiune, veți învăța șirurile de caractere in Python și cum să lucrați cu șirurile și operațiunile și funcțiile acestora, 
+cum ar fi crearea, formatarea, modificarea și ștergerea șirurilor în Python.
+
+Șirul de caratere in Python este o secvență de caractere care este înconjurată de ghilimele simple, ghilimele duble și ghilimelele triple ca un șir de mai multe linii.
+
+Computerul nu funcționează cu caractere, ele funcționează cu numere (0 și 1). 
+Deși atunci când vezi caractere pe ecranul computerului, în interior acestea sunt stocate și manipulate ca o combinație de 0 și 1.
+
+Această modificare a numărului de caractere se numește codificare, iar procesul invers este decodare. 
+
+> Utilizarea Sirurilor de caractere
+
+Putem crea un șir prin includerea caracterelor între ghilimele simple sau duble și mai multe linii sau docstring în Python.
+
+```python
+str1 = 'hello'   # Declarare cu ghilimele simple
+str2 = "hello"   # Declarare cu ghilimele duble
+str3 = '''Hello din    
+            in python'''    # Declarare multi-line
+
+print(str1)
+print(str2)
+print(str3)
+```
+
+Dupa declarare, putem procesa acest sir de caractere si accesa datele. De exemplu, putem afisa caracterul din pozitia `1`
+
+```python
+print(str1[1])
+>>> e # Output 
+```
+
+La fel de usor putem afisa lungimea unui text:
+
+```python
+str1 = 'hello world'   # Declarare cu ghilimele simple
+print(len(str1)) 
+>>> 11 # Output 
+```
+
+Alte functii care se pot utiliza pentru sirurile de caractere 
+
+```python
+str1 = 'hello'         # Declarare cu ghilimele simple
+print(str1.upper())    # Transformare in Majuscule
+print(str1.lower())    # Transformare in litere mici
+```
+
+Lipirea (concatenarea) a doua siruri 
+
+```python
+str1 = 'hello' 
+str2 = 'world'
+
+str3 = str1+str2
+print(str3)
+>>> hello world # Output
+```
+
+<br />
+
+## Clase in Python 
+
+Python este un limbaj de programare orientat pe obiecte, iar clasa este conceptul principal al oricărui limbaj de programare orientat pe obiecte. 
+Clasa este practic definitia și obiectul este colecția de variabile și metode care pot acționa asupra acelor date.
+
+Înțelegem conceptul de clasă cu ajutorul exemplelor de date ale angajaților cu variabile și metode precum e-mail, nume, adresă, telefon și metodele sale precum obținerea de informații etc.
+
+```python
+class Angajat:
+    nume    = 'Marian'
+    email   = 'marian@gmail.com'
+    adresa  = 'Constanta'
+    telefon = '123-123-123'
+
+a1 = Angajat()
+```
+
+In exemplul de mai sus, se defineste o clasa de tip `Angajat` cu proprietatile `nume`, `email`, `adresa` si `telefon. 
+Linia `a1 = Angajat()` creeaza o instanta a clasei angajat care poate stoca date pe care le putem edida si accesa oricand. 
+
+```python
+print(e1.nume)
+print(e1.email)
+print(e1.adresa)
+print(e1.telefon)
+```
+
+In lectiile urmatoare vom reveni cu alte notiuni si concepte Python un pic mai avansate care ne vor ajuta sa creeam un website sau sa accesam informatii publice din Internet. 
+
+<br />
+
+> **Ai o idee** de program in Python? **Trimite un eMail** la adresa *contact@invat.eu* si noi vom incerca sa il cream pentru tine.
+
+<br />
+
+## Resurse
+
+- 👉 Citeste mai mult pe [blog](https://www.blog.invat.eu/)
+- 👉 Intra in [Comunitatea Invat.eu](https://discord.gg/uh2WWTKt) (`Discord`)  
+- 👉 Afla mai multe despre [Invat.eu](/intro) 
+
