@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.2] 2023-07-02
+### Changes
+
+- UPD [Educatie Financiara](https://www.elearning.invat.eu/educatie-financiara/)
+  - [Ce este un Buget](https://www.elearning.invat.eu/educatie-financiara/ce-este/buget/)
+  - [Educatie Financiara, Reguli Simple](https://www.elearning.invat.eu/educatie-financiara/reguli-simple/)
+    - Sectiune Carti: [Banii in miscare](https://www.elearning.invat.eu/educatie-financiara/reguli-simple/#-banii-in-miscare-prosperitatea-in-10-pasi), [Draga, unde-s banii?](https://www.elearning.invat.eu/educatie-financiara/reguli-simple/#-banii-in-miscare-prosperitatea-in-10-pasi)
+
 ## [1.0.1] 2023-07-01
 ### Changes
 
