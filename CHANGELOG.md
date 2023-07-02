@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.3] 2023-07-02
+### Changes
+
+- UPD [Sectiune Python]
+  - [Ghid Python pentru Incepatori](https://www.elearning.invat.eu/programare/python/pentru-incepatori/)
+
 ## [1.0.2] 2023-07-02
 ### Changes
 
