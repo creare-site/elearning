@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.4] 2023-07-02
+### Changes
+
+- Sectiune Noua [Inteligenta Artificiala](https://www.elearning.invat.eu/inteligenta-artificiala/)
+  - [Ce este Inteligenta Artificiala](https://www.elearning.invat.eu/inteligenta-artificiala/intro/)
+
 ## [1.0.3] 2023-07-02
 ### Changes
 
