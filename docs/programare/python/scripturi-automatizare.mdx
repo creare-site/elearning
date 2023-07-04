@@ -1,0 +1,81 @@
+---
+sidebar_position : 1
+title            : Automatizari in Python
+sidebar_label    : Scripturi Automatizare 
+---
+
+# Automatizare in Python 
+
+În acest articol, vom vorbi despre câteva scripturi de automatizare Python pe care le puteți utiliza cu ușurință pentru a efectua sarcini de automatizare. 
+Librariile utilizate in exemplele de mai jos, sunt open-source si pot fi utilizate gratuit. 
+
+<center>
+
+![Python Programming Language](https://github.com/app-generator/dummy/assets/51070104/afc3a4f8-cba3-4028-8ace-e31e188eef26)
+
+</center>
+
+## Script download Video-uri YouTube
+
+Pentru a automatiza acest task, putem utiliza `pytube` si doar cateva linii de cod: 
+
+```py
+import pytube
+
+link = input('https://www.youtube.com/watch?v=fyIcQ1Xl-rs') # Video: NLE Choppa - Walk Em Down
+video_download = pytube.Youtube(link)
+video_download.streams.first().download()
+print('Video Downloaded', link)
+```
+
+Dupa executia codului, Video-ul YouTube poate fi incarcat intr-un player local si vizionat. 
+
+<br />
+
+## Conversie Text to Audio
+
+Pentru a automatiza acest task de conversie vom folosi API-ul gratuit Google `Text to Speech`. 
+Acest serviciu funcționează cu multe limbi, tonuri și voci, si poate fi configurat cu usurinta. 
+
+```py 
+from pygame import mixer
+from gtts import gTTS
+
+tts = gTTS('Acest articol despre Python este util')
+tts.save('output.mp3')
+mixer.init()
+mixer.music.load('output.mp3')
+mixer.music.play()
+```
+
+Codul Python va initializa libraria `gTTS` cu textul care va fi convertit intr-un audio in format `MP3`.
+Dupa ce conversa `MP3` este finalizata, rezultatul va fi redat automat. 
+
+<br />
+
+## Conversie Imagini in PDF 
+
+Uneori putem avea nevoie sa incorporam imagini in fisiere PDF pentru a le distribui mai departe. 
+Acest task poate fi automatizat prin libraria `fpdf`: 
+
+```py 
+from fpdf import FPDF
+Pdf = FPDF()
+
+list_of_images = ["pisica.jpg", "caine.jpg","poza-familie.jpg"]
+for i in list_of_images:
+   Pdf.add_page()
+   Pdf.image(i,x,y,w,h)
+   Pdf.output("output.pdf", "F")
+```   
+
+Codul de mai sus va importa clasa `FPDF` si va incorpora trei poze in acelasi fiser pdf. 
+
+<br />
+
+## Resurse
+
+- 👉 Citeste mai mult pe [blog](https://www.blog.invat.eu/)
+- 👉 Intra in [Comunitatea Invat.eu](https://discord.gg/uh2WWTKt) (`Discord`)  
+- 👉 Afla mai multe despre [Invat.eu](/intro) 
+
