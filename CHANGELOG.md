@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.5] 2023-07-04
+### Changes
+
+- UPD [Sectiune Python](https://www.elearning.invat.eu/programare/python/)
+  - [Scripturi Automatizare in Python](https://www.elearning.invat.eu/programare/python/scripturi-automatizare/)
+
 ## [1.0.4] 2023-07-02
 ### Changes
 
