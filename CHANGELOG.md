@@ -30,7 +30,7 @@
 ### Changes
 
 - Added Discord Server
-  - [Invat.eu Comunitate](https://discord.gg/gQEtVe2k)
+  - [Invat.eu Comunitate](https://discord.gg/3qmQKAHKS2)
   
 ## [1.0.0] 2023-03-25
 ### Changes
