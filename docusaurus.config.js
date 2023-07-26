@@ -107,7 +107,7 @@ const config = {
                         items: [
                             {
                                 label: 'Docs',
-                                to: '/intro',
+                                to: '/',
                             },
                         ],
                     },
@@ -125,7 +125,7 @@ const config = {
                         items: [
                             {
                                 label: 'Email',
-                                href: '/intro#contact',
+                                href: '/#contact',
                             },
                         ],
                     },
